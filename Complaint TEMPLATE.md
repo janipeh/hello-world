@@ -30,7 +30,7 @@ Security related: no
 
 Criticality: P1 – minor
 
-Need to report: no
+Need to report to authorities: No adverse effects observed, no need to report.
 
 ## Investigation
 
