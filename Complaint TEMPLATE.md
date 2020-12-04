@@ -4,11 +4,11 @@ Affects release: deployed MVision Segmentation Service 1.1, release 1.1.1
 
 ### Identifying information
 
-Date of complaint:
+Date of complaint: 
 
-Clinic:
+Clinic: 
 
-Auto-segmentation model or service in question: Breast, Abdomen-lung and Headneck
+Auto-segmentation model or service in question: 
 
 ### Problem description
 
@@ -46,7 +46,7 @@ No other released produces have this function.
 
 ### Other causes and contributing factors
 
-None identified
+None identified.
 
 ### Decided actions
 
@@ -58,13 +58,13 @@ To be fixed in <release x of MVision Segmentation Service x>.
 
 ### Correction
 
-<Fixed in commit #>.
+<Fixed in commit no>.
 
 ### Testing for effectiveness and unintended side effects
 
 <tester> / <date>:
 
-Environment:
+Environment: 
 
 Expected results: 
 
