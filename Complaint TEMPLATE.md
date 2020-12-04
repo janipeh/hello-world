@@ -12,17 +12,17 @@ Auto-segmentation model or service in question: Breast, Abdomen-lung and Headnec
 
 ### Problem description
 
-Saad Ullah Akram identified that there is a bug in mvworker release related to large scans (with predicted probability maps larger than 20x138x512x512) could crash mvworker such that no segmentations are produced.
+<description>
 
 ### Steps to reproduce
 
-Send a large scan to the system.
+<description>
 
 ## Analysis and evaluation
 
-Review, evaluation and risk analysis / Aleksi Nurmi 2020-07-07:
+Review, evaluation and risk analysis / <reviewer and date>:
 
-Scans of that size are typically not encountered in intended use, and the problem does contribute to use errors.
+<additional information>
 
 Safety related: no
 
@@ -30,16 +30,16 @@ Security related: no
 
 Criticality: P1 – minor
 
-Need to report:
+Need to report: no
 
 ## Investigation
 
-Investigation by Aleksi Nurmi with technical input from Saad Ullah Akram, 2020-07-07.
+Investigation by <investigator and date>.
 
 ### Technical cause
 
-Indexing error in pre-processing code of mvworker.
-
+<cause>
+  
 ### Released/similar products
 
 No other released produces have this function.
@@ -52,24 +52,24 @@ None identified
 
 Communication to customer: 
 
-To be fixed in release 1.1.2 of MVision Segmentation Service 1.1.
+To be fixed in <release x of MVision Segmentation Service x>.
 
 ## Resolution and verification
 
 ### Correction
 
-Fixed in #93, author Saad Ullah Akram.
+<Fixed in commit #>.
 
 ### Testing for effectiveness and unintended side effects
 
-Aleksi Nurmi / 2017-07-10:
+<tester> / <date>:
 
-Environment: Eclipse 15.6, RTViewer
+Environment:
 
-Expected results: the system produced results on oys-headneck-100-0, known to fail in 1.1.1.
+Expected results: 
 
-Actual results: a structure set was produced
+Actual results: 
 
 ### Verification
 
-Covered by change plan for release 1.1.2.
+Covered by
